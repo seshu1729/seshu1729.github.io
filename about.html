@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Pendyala Sesha Srinivas — AI Engineer</title>
+  <meta name="description" content="AI Engineer — Generative AI, LLMs, RAG Systems" />
+
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  <link href="style.css" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <!-- Font Awesome for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+  <header>
+    <a href="#hero" class="brand" id="brand-link">
+      <img id="pf-small" src="assets/profile.jpg" alt="profile">
+      <div><h1 id="cfg-name">Pendyala Sesha Srinivas</h1><div style="font-size:12px;color:var(--muted)" id="cfg-title">AI Engineer</div></div>
+    </a>
+    <nav>
+      <a href="#about-content" class="nav-about">About</a>
+      <button class="btn" id="theme-toggle">🌙</button>
+    </nav>
+  </header>
+
+  <main class="page">
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+      <div class="hero-inner">
+        <div class="profile-main" data-aos="fade-up">
+          <img src="assets/profile.jpg" alt="profile" id="profile-img-big">
+          <!-- <p class="lead" id="card-short-bio-big"></p> --> <!-- <--- REMOVE THIS LINE -->
+          <p class="hero-caption" id="cfg-hero-caption"></p>
+          <div class="links">
+            <a class="icon-link" href="mailto:seshu123000@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+            <a class="icon-link" href="https://github.com/seshu1729" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i class="fab fa-github"></i></a>
+            <a class="icon-link" href="https://linkedin.com/in/sesha-srinivas-pendyala-905984152" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Combined About, Skills, and Contact Section -->
+    <section id="about-content" data-aos="fade-up">
+      <div class="about-section-wrapper">
+        <div class="main-content-area">
+          <h3 class="section-title">About Me</h3>
+          <p id="about-p" class="about-text-content"></p>
+          <div class="action-buttons">
+            <button class="cta" id="hire-me">Hire / Contact</button>
+          </div>
+
+          <h3 class="section-title" style="margin-top: 60px;">Skills</h3>
+          <div class="skills-grid" id="skills-expanded">
+            <!-- Skills will be dynamically loaded here by script.js -->
+          </div>
+
+          <h3 class="section-title" style="margin-top: 60px;" id="contact-details">Contact</h3>
+          <p id="contact-message" class="contact-intro-text"></p>
+          <div class="contact-info-grid">
+            <p><i class="fas fa-phone-alt contact-icon"></i> Phone: <strong id="contact-phone"></strong></p>
+            <p><i class="fas fa-envelope contact-icon"></i> Email: <a id="contact-email" href="mailto:"></a></p>
+            <p><i class="fab fa-github contact-icon"></i> GitHub: <a id="link-github" href="#" target="_blank" rel="noopener noreferrer"></a></p>
+            <p><i class="fab fa-linkedin contact-icon"></i> LinkedIn: <a id="link-linkedin" href="#" target="_blank" rel="noopener noreferrer"></a></p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>© <span id="year"></span> Pendyala Sesha Srinivas · Built with ❤️</footer>
+
+  <script src="config.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
