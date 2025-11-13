@@ -10,7 +10,7 @@ const CONFIG = {
     phone: "+91-8686765010",
     email: "seshu123000@gmail.com",
     github: "https://github.com/seshu1729",
-    linkedin: "https://linkedin.com/in/sesha-srinivas-pendyala-905984152",
+    linkedin: "https://linkedin.com/in/sesha-srinivas-pendyala",
   },
   skills: [
     {group: 'Programming Languages', items: ['Python','C++','Java','SQL']},
